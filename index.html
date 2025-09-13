@@ -4,39 +4,50 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>Moviecards</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
     crossorigin="anonymous">
+	
+   <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <div class="container" mt-5>
-            <div class="row" id="postcontainer">
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-header">
-                         <h3>Title</h3>
-                         </div>
-                    <div class="card-body">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                             Atque ex corporis animi ducimus itaque. Quas porro quaerat vero modi dolor in, 
-                             obcaecati recusandae maxime. Adipisci eveniet non pariatur asperiores molestiae.
-                            </p>
-                             </div>
-                             <div class="card-footer d-flex justify-content-between">
+       
+        <div class="container-fluid mt-5">
+            <div class="row" id="moviecontainer">
+			   <div class="col-md-4  mb-4">
+			       <div class="card">
+			<figure class="moviecard mb-0">
+			<!-- <-----------img ------------------> 
+			<img src="https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+			title="movie name"
+			alt="movie name">
 
-                     <button class="btn btn-sm btn-outline-info">Edit</button>
-                     <button class="btn btn-sm btn-outline-danger">Edit</button>
-
-                </div>
-              </div>
-            </div>
-           </div>
-           </div>     
-          </div>
-
-<script src="./assets/js/app.js"></script>
-</body>
-
-</html>
-
+		<figcaption>
+			 <div class="titleInfo">
+			    <div class="row">
+			        <div class="col-10">
+			           <h2>The Godfather</h2>
+			               </div>
+			                  <div class="col-2">
+		              	<h3><span class="badge badge-success">7</span> </h3>
+			       </div>
+			    </div>
+			  </div>
+			  
+			  <div class="overview">
+			  <h5>The Godfather</h5>
+			  <p> 
+                  Synopsis: "The aging patriarch of an organized crime family transfers control of his clandestine empire to his reluctant son.
+			  </p>
+			</figcaption>
+		  </figure>
+		 </div>
+	   </div>
+	</div>
+	</div>
+			<script src="./assets/js/data.js"></script>
+			<script src="./assets/js/app.js"></script>
+			
+			</body>
+	</html>

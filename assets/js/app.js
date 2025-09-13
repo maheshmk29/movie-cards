@@ -53,4 +53,4 @@ movieArray.forEach(movie =>{
 	</div>` 
 })
 
-moviecontainer.innerHTML =result;
+moviecontainer.innerHTML= result
