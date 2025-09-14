@@ -1,3 +1,15 @@
+h1{
+	text-align:center;
+	background-color: black;
+	width:100%;
+	padding:2px;
+	color:orange;
+} 
+
+
+
+
+
 
 #moviecontainer.card {
   overflow: hidden;
@@ -9,7 +21,6 @@
   height: 450px;
   overflow: hidden;
 }
-
 .moviecard img {
   height: 100%;
   width: 100%;
@@ -25,10 +36,11 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background: black;
+  background:orange;
   width: 100%;
   padding: 20px;
   color: white;
+  
 }
 
 .overview {
@@ -37,7 +49,7 @@
   left: 0;
   width: 100%;
   height: 70%;
-  background-color: purple;
+  background-color:yellow;
   color:black;
   padding: 20px;
   opacity: 0;
@@ -46,7 +58,7 @@
 
 .moviecard:hover .overview {
   bottom: 0;   /* slide up */
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .titleInfo h3 {
